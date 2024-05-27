@@ -32,4 +32,14 @@ let getJohnOrders = () => {
   });
 };
 
-// Start coding here
+const JohnProfile = (data) =>{
+  console.log(data);
+}
+const JohnOrder = (order)=>{
+  console.log(order);
+}
+const failedData = (error) =>{
+  console.log(error);
+}
+getJohnProfile().then(JohnProfile).catch(failedData);
+getJohnOrders().then(JohnOrder).catch(failedData);

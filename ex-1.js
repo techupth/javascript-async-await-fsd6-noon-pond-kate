@@ -13,4 +13,8 @@ let getJohnProfile = () => {
     );
   });
 };
-// Start coding here
+const JohnProfile = (data) =>{
+  console.log(data);
+}
+getJohnProfile().then(JohnProfile);
+

@@ -12,4 +12,11 @@ let getJohnProfile = () => {
   });
 };
 
-// Start coding here
+const JohnProfile = (data) =>{
+  console.log(data);
+}
+const errorData = (error) =>{
+  console.log(error);
+}
+getJohnProfile().then(JohnProfile).catch(errorData);
+
