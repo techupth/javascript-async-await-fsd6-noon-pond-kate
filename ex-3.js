@@ -36,7 +36,7 @@ let getJohnOrders = () => {
 
 
 
-let profileJ = (profile) => {
+let johnProfile = (profile) => {
   console.log(profile)
   return getJohnOrders()
 }
@@ -47,5 +47,5 @@ let orderJ = (order) => {
 
 
 getJohnProfile()
-  .then(profileJ)
+  .then(johnProfile)
   .then(orderJ)

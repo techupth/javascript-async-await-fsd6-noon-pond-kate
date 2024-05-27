@@ -18,6 +18,11 @@ let getJohnProfile = () => {
     console.log(data)
   }
 
-  getJohnProfile().then(johnInfo)
+  getJohnProfile().then(johnInfo => {
+    console.log(johnInfo);
+  }).catch(error => {
+    console.error(error);
+  });
+  
 
 

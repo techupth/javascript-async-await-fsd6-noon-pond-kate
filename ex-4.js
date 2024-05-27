@@ -19,8 +19,8 @@ let profileOfJohn = async () => {
     let profile = await getJohnProfile()
     console.log(profile)
 } catch (error) {
-  console.log(error)
+    console.log(error);
 }
-}
+};
 
 profileOfJohn()

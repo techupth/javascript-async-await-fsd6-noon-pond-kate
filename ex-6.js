@@ -34,16 +34,16 @@ let getJohnOrders = () => {
 
 // Start coding here
 
-let johnInfo = async () => {
+let fetchJohnDate = async () => {
   try {
-    let profile1 = await getJohnProfile()
-    console.log(profile1)
+    let profile = await getJohnProfile()
+    console.log(profile)
 
-    let profile2 = await getJohnOrders()
-    console.log(profile2)
+    let orders = await getJohnOrders()
+    console.log(orders)
   } catch(error){
     console.log(error)
   }
 }
 
-johnInfo()
+fetchJohnDate()

@@ -14,8 +14,8 @@ let getJohnProfile = () => {
 
 // Start coding here
 
-let johnError = (error) => {
+let profileError = (error) => {
   console.log(error)
-}
+};
 
-getJohnProfile().catch(johnError)
+getJohnProfile().catch(profileError)

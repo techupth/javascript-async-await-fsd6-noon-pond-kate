@@ -17,10 +17,9 @@ let profileOfJohn = async () => {
   try {
     let profile = await getJohnProfile()
     console.log(profile)
-  } catch(error){
+  }catch(error){
     let reject = await getJohnProfile()
-  console.log(reject)
+  console.log(error);
   }
 }
 
-getJohnProfile()
